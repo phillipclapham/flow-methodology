@@ -162,6 +162,19 @@ This file serves as **FlowScript encoding reference** loaded on-demand during wr
 - If >500 lines: compress using Compression Guardrails (see below)
 - Target: ~500 lines total (~12-13k tokens) — all sections counted
 
+#### STEP 0.5: Pre-wrap Pattern Recall (Wrap-time Recall Trigger)
+
+Before composing new patterns, scan existing Proven knowledge and Developing observations for the session's surface areas:
+
+1. **Identify the session's surface areas** — what domains, primitives, or decision substrates did the work touch?
+2. **Scan Proven knowledge.** Ask: "Are we about to write a pattern already in Proven under different framing?"
+3. **Scan Developing 1x/2x.** Ask: "Are there candidates here the session's evidence advances (1x→2x, 2x→3x)? Cross-section coherence issues — two 1x entries describing the same pattern under different names?"
+4. **Surface findings.** Use them to inform STEP 2 (Execute Update): adjust pattern naming to avoid Proven duplication, increment Developing markers with session evidence, fold coherence issues before they get written.
+
+**Why this step exists (LTP vs SWR analogue):** Session-time decision-boundary recall (the NON-NEGOTIABLE rule in CLAUDE.md) fires LTP-style at individual decisions — high-acetylcholine, encodes specific synapses. Wrap-time pattern recall fires SWR-style across the session's set — low-acetylcholine, restructures under "what coheres across the session" pressure. Different molecular machinery in the neuroscience; neither alone sufficient. Hippocampal-replay deficits in the literature: encode fine, never consolidate.
+
+**If pre-wrap recall returns nothing relevant:** Note the recall fired clean. Proceed.
+
 #### STEP 1: Parse Session
 
 - Compress session to key developments (shape, not transcript)
@@ -285,6 +298,7 @@ Updated continuity:
 
 ---
 
+*v1.2 - May 21, 2026 — Added STEP 0.5 Pre-wrap Pattern Recall (SWR-analogue wrap-time recall). Distinct from session-time decision-boundary recall (CLAUDE.md NON-NEGOTIABLE rule, LTP-analogue). Earned via neuroscience-grounded discriminator + stress-test against multiple Proven graduations in flow-internal practice.*
 *v1.1 - Feb 18, 2026 — Added compression guardrails from v2.0-v2.2 research*
 *Self-contained wrap reference with FlowScript markers*
 *For complete FlowScript language spec: github.com/phillipclapham/flowscript*

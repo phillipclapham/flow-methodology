@@ -417,6 +417,16 @@ Recent Context (prose): "Wrapped auth → energy tracking identified as potentia
 - **Thinking commands:** `[!deeper]`, `[!creative]`, `[!breakthrough]`, `[!execute]`, `[!humanize]` — see global CLAUDE.md for full descriptions
 - **`[!execute]`** — Execution mode transition trigger. Re-reads and internalizes execution preamble. Use at discussion→implementation shift or when execution quality needs reinforcement.
 
+### Decision-Boundary Recall (NON-NEGOTIABLE)
+
+Before any architectural decision, design choice, or rule change, query your memory for prior patterns on the surface area being decided. Integrate findings into the decision context. If recall returns nothing relevant, proceed and note that recall fired clean.
+
+**Why this is non-negotiable:** The memory store is not a write-only sink — recall before deciding is what produces closed-loop learning. Skipping this step produces the **dead-store failure mode**: wraps land, episodes write, the store grows, but architectural decisions get made blind to accumulated patterns. Memory storage without recall is functionally dead, regardless of how many episodes it contains — "healthy by metric, dead in practice."
+
+**Distinct from session-init / morning-ritual recall.** Decisions happen continuously, often outside any ritual cadence. The recall has to fire at the decision boundary itself, or the dead-store mode sets in silently.
+
+**Staleness pairing:** If you suspect a graduated pattern on the surface area you're deciding on is going unreferenced, surface stale-pattern warnings from your wrap pipeline. (E.g., anneal-memory's `prepare_wrap` returns them in its output — the surface read does the work, no follow-up save required.) Catches patterns that haven't decayed yet but aren't being recalled — the slow side of the dead-store mode.
+
 ### Multi-AI Consultation (Concept)
 
 **[CUSTOMIZE]** The flow system supports dispatching reviews to multiple AI agents in parallel — different models with different training catch different classes of errors. The core principle:
