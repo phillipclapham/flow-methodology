@@ -1,5 +1,7 @@
 # Flow: A Methodology for AI Partnership
 
+> **Frozen as of May 2026.** I wrote this while working as a Solutions Architect at a WordPress host; I've since gone independent and run Clapham Digital. I think the core ideas still hold, but my current, fuller statement is [The Suit, Not the Butler](https://nemooperans.com/the-suit-not-the-butler).
+
 Most AI tools are built on the Jarvis model -- you ask, it answers, you forget each other. Flow is the opposite. It's a methodology for building persistent AI partnership where your AI gets smarter about you over time, your shared memory compounds, and the thing that emerges between you is more capable than either of you alone.
 
 This isn't theoretical. It's extracted from 10 months of daily use building software, writing, making decisions, and running a business. The methodology is open because the moat was never the notation -- it's the practice.
