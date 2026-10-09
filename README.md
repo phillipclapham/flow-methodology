@@ -1,6 +1,6 @@
 # Flow: A Methodology for AI Partnership
 
-> **Frozen as of May 2026.** I wrote this while working as a Solutions Architect at a WordPress host; I've since gone independent and run Clapham Digital. I think the core ideas still hold, but my current, fuller statement is [The Suit, Not the Butler](https://nemooperans.com/the-suit-not-the-butler).
+> **Frozen as of March 2026.** I wrote this while working as a Solutions Architect at a WordPress host; I've since gone independent and run Clapham Digital. I think the core ideas still hold, but my current, fuller statement is [The Suit, Not the Butler](https://nemooperans.com/the-suit-not-the-butler).
 
 Most AI tools are built on the Jarvis model -- you ask, it answers, you forget each other. Flow is the opposite. It's a methodology for building persistent AI partnership where your AI gets smarter about you over time, your shared memory compounds, and the thing that emerges between you is more capable than either of you alone.
 
@@ -58,7 +58,7 @@ The starter kit. Copy this to your own repo and customize.
 
 ### `paper/`
 
-The full methodology paper (~25,000 words). Covers the complete system: memory architecture, cognitive engine, consultation framework, automation design, and the philosophical argument for why partnership beats delegation.
+The full methodology paper (~17,000 words). Covers the complete system: memory architecture, cognitive engine, consultation framework, automation design, and the philosophical argument for why partnership beats delegation.
 
 ---
 

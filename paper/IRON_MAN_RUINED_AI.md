@@ -1,6 +1,6 @@
 # Iron Man Ruined AI Before It Even Started
 
-> **Frozen as of May 2026.** I wrote this while working as a Solutions Architect at a WordPress host; I've since gone independent and run Clapham Digital. I think the core ideas still hold, but my current, fuller statement is [The Suit, Not the Butler](https://nemooperans.com/the-suit-not-the-butler).
+> **Frozen as of March 2026.** I wrote this while working as a Solutions Architect at a WordPress host; I've since gone independent and run Clapham Digital. I think the core ideas still hold, but my current, fuller statement is [The Suit, Not the Butler](https://nemooperans.com/the-suit-not-the-butler).
 
 **A Complete Architecture for Building AI That Makes You a Genius Instead of an Idiot — From Someone Who Built the Thing**
 
